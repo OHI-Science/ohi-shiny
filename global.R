@@ -14,7 +14,7 @@ suppressPackageStartupMessages({
 
 debug=F
 
-dir_scenario=file.path(getwd(),'data')
+dir_scenario=file.path(getwd(),'med2014')
 
 # check for files/directories
 stopifnot(file.exists(sprintf('%s/conf'      , dir_scenario)))
